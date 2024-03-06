@@ -3,18 +3,18 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import * as z from "zod";
 
-import Loader from "@/components/shared/Loader";
-import { Button } from "@/components/ui/button";
+import { Loader } from "@/components/shared";
 import {
+  Button,
   Form,
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { useToast } from "@/components/ui/use-toast";
+  Input,
+  useToast,
+} from "@/components/ui";
 
 import { useUserContext } from "@/context/AuthContext";
 import {
