@@ -2,8 +2,8 @@ import { Models } from "appwrite";
 import { Link } from "react-router-dom";
 
 import { PostStats } from "@/components/shared";
-import { multiFormatDateString } from "@/lib/utils";
 import { useUserContext } from "@/context/AuthContext";
+import { multiFormatDateString } from "@/lib/utils";
 
 type PostCardProps = {
   post: Models.Document;
@@ -47,7 +47,8 @@ const PostCard = ({ post }: PostCardProps) => {
 
         <Link
           to={`/update-post/${post.$id}`}
-          className={`${user.id !== post.creator.$id && "hidden"}`}>
+          className={`${user.id !== post.creator.$id && "hidden"}`}
+        >
           <img
             src={"/assets/icons/edit.svg"}
             alt="edit"
@@ -60,7 +61,7 @@ const PostCard = ({ post }: PostCardProps) => {
       <Link to={`/posts/${post.$id}`}>
         <div className="small-medium lg:base-medium py-5">
           <p>{post.caption}</p>
-          <ul className="flex gap-1 mt-2">
+          <ul className="flex gap-1 mt-2 flex-wrap">
             {post.tags.map((tag: string, index: string) => (
               <li key={`${tag}${index}`} className="text-light-3 small-regular">
                 #{tag}

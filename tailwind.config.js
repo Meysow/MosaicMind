@@ -1,7 +1,6 @@
 /*eslint no-undef: "error"*/
 /*eslint-env node*/
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   darkMode: ["class"],
@@ -21,19 +20,18 @@ module.exports = {
     },
     extend: {
       colors: {
-        "primary-500": "#877EFF",
-        "primary-600": "#5D5FEF",
-        "secondary-500": "#FFB620",
+        "primary-500": "#6D2545",
+        "primary-600": "#B0436E",
         "off-white": "#D0DFFF",
         red: "#FF5A5A",
-        "dark-1": "#000000",
-        "dark-2": "#09090A",
-        "dark-3": "#101012",
-        "dark-4": "#1F1F22",
-        "light-1": "#FFFFFF",
-        "light-2": "#EFEFEF",
-        "light-3": "#7878A3",
-        "light-4": "#5C5C7B",
+        "dark-1": "#121113",
+        "dark-2": "#1A191B",
+        "dark-3": "#232225",
+        "dark-4": "#2B292D",
+        "light-1": "#EEEEF0",
+        "light-2": "#B5B2BC",
+        "light-3": "#7C7A85",
+        "light-4": "#6F6D78",
       },
       screens: {
         xs: "480px",
