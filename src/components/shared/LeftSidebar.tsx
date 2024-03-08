@@ -28,7 +28,12 @@ const LeftSidebar = () => {
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
-          <img src="/assets/images/logo.svg" alt="logo" width={190} />
+          <img
+            src="/assets/images/logo.svg"
+            alt="logo"
+            width={190}
+            className="overflow-visible"
+          />
         </Link>
 
         {isLoading || !user.email ? (
