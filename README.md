@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# MosaicMind - Social Network
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![MosaicMind](https://tdportfolio-self.vercel.app/assets/projects/MosaicMind.png)
 
-Currently, two official plugins are available:
+MosaicMind is a cutting-edge social network web application designed to showcase innovative UI/UX design principles. Built with React 18.2.0, this project leverages efficient server state management, seamless form handling, and stylish responsive designs to deliver a unique social networking experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Innovative UI/UX Design**: Utilizing the latest design principles for an engaging user experience.
+- **Efficient Server State Management**: Powered by `@tanstack/react-query` for managing server state with ease.
+- **Seamless Form Handling**: Integrated with `react-hook-form` for efficient form operations.
+- **Responsive Design**: Crafted with `tailwindcss` for a mobile-friendly interface.
+- **Modern Development Tools**: Built using Vite, eslint, and Appwrite to ensure quick builds, code quality, and reliable backend services.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Live Demo
 
-- Configure the top-level `parserOptions` property like this:
+Experience MosaicMind live: [MosaicMind Demo](https://mosaic-mind.vercel.app)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+MosaicMind is developed with the following technologies:
+
+- React 18.2.0
+- @tanstack/react-query
+- react-hook-form
+- tailwindcss
+- Vite
+- eslint
+- Appwrite
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Ensure you have npm installed:
+
+```bash
+npm install npm@latest -g
+
+Installation
+
+    Clone the repo
+
+bash
+
+git clone https://github.com/Meysow/MosaicMind.git
+
+    Install NPM packages
+
+bash
+
+npm install
+
+Available Scripts
+
+In the project directory, you can run:
+
+    npm run dev: Runs the app in the development mode.
+    npm run build: Builds the app for production to the build folder.
+    npm run lint: Lints and checks for code quality.
+    npm run preview: Preview the production build.
+
+Project Link: https://github.com/Meysow/MosaicMind
