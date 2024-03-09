@@ -38,28 +38,32 @@ Ensure you have npm installed:
 
 ```bash
 npm install npm@latest -g
+```
 
 Installation
 
     Clone the repo
 
-bash
-
+```bash
 git clone https://github.com/Meysow/MosaicMind.git
+```
 
     Install NPM packages
 
-bash
+```bash
 
 npm install
+```
 
 Available Scripts
 
 In the project directory, you can run:
 
+```bash
     npm run dev: Runs the app in the development mode.
     npm run build: Builds the app for production to the build folder.
     npm run lint: Lints and checks for code quality.
     npm run preview: Preview the production build.
+```
 
 Project Link: https://github.com/Meysow/MosaicMind
